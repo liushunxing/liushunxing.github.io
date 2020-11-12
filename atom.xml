@@ -6,7 +6,7 @@
   <link href="https://liushunxing.github.io/atom.xml" rel="self"/>
   
   <link href="https://liushunxing.github.io/"/>
-  <updated>2020-11-11T11:17:01.820Z</updated>
+  <updated>2020-11-12T11:01:57.538Z</updated>
   <id>https://liushunxing.github.io/</id>
   
   <author>
@@ -17,11 +17,88 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>粘连布局</title>
+    <link href="https://liushunxing.github.io/posts/8ccc.html"/>
+    <id>https://liushunxing.github.io/posts/8ccc.html</id>
+    <published>2020-05-02T10:46:31.000Z</published>
+    <updated>2020-11-12T11:01:57.538Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;粘连布局&quot;&gt;&lt;a href=&quot;#粘连布局&quot; class=&quot;headerlink&quot; title=&quot;粘连布局&quot;&gt;&lt;/a&gt;粘连布局&lt;/h1&gt;&lt;p&gt;通俗的讲：如果有足够的内容将页面撑开，footer 可以被撑到网页下方去。但是，如果页面的内容很短，粘连 footer</summary>
+        
+      
+    
+    
+    
+    <category term="CSS" scheme="https://liushunxing.github.io/categories/CSS/"/>
+    
+    
+    <category term="布局方案" scheme="https://liushunxing.github.io/tags/%E5%B8%83%E5%B1%80%E6%96%B9%E6%A1%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>三栏布局</title>
+    <link href="https://liushunxing.github.io/posts/2db5.html"/>
+    <id>https://liushunxing.github.io/posts/2db5.html</id>
+    <published>2020-05-02T10:46:08.000Z</published>
+    <updated>2020-11-12T11:05:03.736Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;三栏布局&quot;&gt;&lt;a href=&quot;#三栏布局&quot; class=&quot;headerlink&quot; title=&quot;三栏布局&quot;&gt;&lt;/a&gt;三栏布局&lt;/h1&gt;&lt;p&gt;特征：中间列自适应宽度，旁边两侧固定宽度。&lt;/p&gt;
+&lt;h2 id=&quot;一、浮动或绝对定位&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="CSS" scheme="https://liushunxing.github.io/categories/CSS/"/>
+    
+    
+    <category term="布局方案" scheme="https://liushunxing.github.io/tags/%E5%B8%83%E5%B1%80%E6%96%B9%E6%A1%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>两栏布局</title>
+    <link href="https://liushunxing.github.io/posts/bd25.html"/>
+    <id>https://liushunxing.github.io/posts/bd25.html</id>
+    <published>2020-05-02T10:45:33.000Z</published>
+    <updated>2020-11-12T11:03:41.011Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;两栏布局&quot;&gt;&lt;a href=&quot;#两栏布局&quot; class=&quot;headerlink&quot; title=&quot;两栏布局&quot;&gt;&lt;/a&gt;两栏布局&lt;/h1&gt;&lt;p&gt;一栏固定宽度(或由内容撑开)，一栏自适应(假设左边固定，右边自适应)。&lt;/p&gt;
+&lt;pre</summary>
+        
+      
+    
+    
+    
+    <category term="CSS" scheme="https://liushunxing.github.io/categories/CSS/"/>
+    
+    
+    <category term="布局方案" scheme="https://liushunxing.github.io/tags/%E5%B8%83%E5%B1%80%E6%96%B9%E6%A1%88/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Markdown基本语法</title>
     <link href="https://liushunxing.github.io/posts/46d5.html"/>
     <id>https://liushunxing.github.io/posts/46d5.html</id>
-    <published>2020-05-11T02:14:05.000Z</published>
-    <updated>2020-11-11T11:17:01.820Z</updated>
+    <published>2020-04-07T02:14:05.000Z</published>
+    <updated>2020-11-12T10:47:12.408Z</updated>
     
     
       
