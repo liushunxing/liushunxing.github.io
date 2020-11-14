@@ -6,7 +6,7 @@
   <link href="https://liushunxing.github.io/atom.xml" rel="self"/>
   
   <link href="https://liushunxing.github.io/"/>
-  <updated>2020-11-12T11:01:57.538Z</updated>
+  <updated>2020-11-14T00:50:43.625Z</updated>
   <id>https://liushunxing.github.io/</id>
   
   <author>
@@ -15,6 +15,56 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Restful 设计规范</title>
+    <link href="https://liushunxing.github.io/posts/196e.html"/>
+    <id>https://liushunxing.github.io/posts/196e.html</id>
+    <published>2020-06-14T00:27:51.000Z</published>
+    <updated>2020-11-14T00:50:43.625Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Restful-API-具体设计规范&quot;&gt;&lt;a href=&quot;#Restful-API-具体设计规范&quot; class=&quot;headerlink&quot; title=&quot;Restful API 具体设计规范&quot;&gt;&lt;/a&gt;Restful API</summary>
+        
+      
+    
+    
+    
+    <category term="Restful API" scheme="https://liushunxing.github.io/categories/Restful-API/"/>
+    
+    
+    <category term="Restful 设计规范" scheme="https://liushunxing.github.io/tags/Restful-%E8%AE%BE%E8%AE%A1%E8%A7%84%E8%8C%83/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Restful 架构</title>
+    <link href="https://liushunxing.github.io/posts/57aa.html"/>
+    <id>https://liushunxing.github.io/posts/57aa.html</id>
+    <published>2020-06-14T00:27:39.000Z</published>
+    <updated>2020-11-14T00:48:19.645Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Restful-架构&quot;&gt;&lt;a href=&quot;#Restful-架构&quot; class=&quot;headerlink&quot; title=&quot;Restful 架构&quot;&gt;&lt;/a&gt;Restful 架构&lt;/h1&gt;&lt;h2 id=&quot;一、起源&quot;&gt;&lt;a href=&quot;#一、起源&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Restful API" scheme="https://liushunxing.github.io/categories/Restful-API/"/>
+    
+    
+    <category term="Restful 架构" scheme="https://liushunxing.github.io/tags/Restful-%E6%9E%B6%E6%9E%84/"/>
+    
+  </entry>
   
   <entry>
     <title>粘连布局</title>
@@ -72,7 +122,7 @@
     <link href="https://liushunxing.github.io/posts/bd25.html"/>
     <id>https://liushunxing.github.io/posts/bd25.html</id>
     <published>2020-05-02T10:45:33.000Z</published>
-    <updated>2020-11-12T11:03:41.011Z</updated>
+    <updated>2020-11-14T00:24:34.764Z</updated>
     
     
       
@@ -98,7 +148,7 @@
     <link href="https://liushunxing.github.io/posts/46d5.html"/>
     <id>https://liushunxing.github.io/posts/46d5.html</id>
     <published>2020-04-07T02:14:05.000Z</published>
-    <updated>2020-11-12T10:47:12.408Z</updated>
+    <updated>2020-11-14T00:52:25.881Z</updated>
     
     
       
@@ -111,10 +161,10 @@
     
     
     
-    <category term="博客" scheme="https://liushunxing.github.io/categories/%E5%8D%9A%E5%AE%A2/"/>
+    <category term="Markdown" scheme="https://liushunxing.github.io/categories/Markdown/"/>
     
     
-    <category term="Markdown" scheme="https://liushunxing.github.io/tags/Markdown/"/>
+    <category term="Markdown 语法" scheme="https://liushunxing.github.io/tags/Markdown-%E8%AF%AD%E6%B3%95/"/>
     
   </entry>
   
