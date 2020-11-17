@@ -488,9 +488,8 @@
 <li>输入全局变量: 为了在模块内部调用全局变量，必须显式地将其他变量输入模块。<pre class="line-numbers language-JavaScript"><code class="language-JavaScript">　var module1 = (function ($, YAHOO) &#123;
 　　　　//...
 　　&#125;)(jQuery, YAHOO);<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-</li>
+<h2 id="CommonJS"><a href="#CommonJS" class="headerlink" title="CommonJS"></a>CommonJS</h2>CommonJS使用<code>exports</code>导出模块，<code>require</code>导入模块。</li>
 </ul>
-<h2 id="CommonJS"><a href="#CommonJS" class="headerlink" title="CommonJS"></a>CommonJS</h2><p>CommonJS使用<code>exports</code>导出模块，<code>require</code>导入模块。</p>
 <p><strong>同步</strong>加载，适合服务端，不适合浏览器。</p>
 <h3 id="nodejs对CommonJS的实现"><a href="#nodejs对CommonJS的实现" class="headerlink" title="nodejs对CommonJS的实现"></a>nodejs对CommonJS的实现</h3><p>为了实现CommonJS规范，nodejs对模块做出了以下处理</p>
 <ol>
@@ -566,9 +565,8 @@ export &#123; age, sex &#125; //将age变量的名称作为导出的名称，age
 <li>可以使用  <code>*</code> 号导入所有的基本导出(包括默认导出)，使用 <code>as</code> 重命名，形成一个对象。<pre class="line-numbers language-JavaScript"><code class="language-JavaScript">import "./a.js" //这条导入语句，仅会运行模块，不用它内部的任何导出
 import &#123;name, age&#125; from "./b.jsb"
 import * as c from "./c.js"<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-<h3 id="默认导入导出"><a href="#默认导入导出" class="headerlink" title="默认导入导出"></a>默认导入导出</h3></li>
+<h3 id="默认导入导出"><a href="#默认导入导出" class="headerlink" title="默认导入导出"></a>默认导入导出</h3><h4 id="默认导出"><a href="#默认导出" class="headerlink" title="默认导出"></a>默认导出</h4>每个模块，除了允许有多个基本导出之外，还允许有一个默认导出（有且仅有一个）。</li>
 </ul>
-<h4 id="默认导出"><a href="#默认导出" class="headerlink" title="默认导出"></a>默认导出</h4><p>每个模块，除了允许有多个基本导出之外，还允许有一个默认导出（有且仅有一个）。</p>
 <p>默认导出类似于CommonJS中的<code>module.exports</code>，由于只有一个，因此无需具名。</p>
 <p>具体的语法：<br><code>export default 默认导出的数据</code><br>或<br><code>export &#123;默认导出的数据 as default&#125;</code></p>
 <h4 id="默认导入"><a href="#默认导入" class="headerlink" title="默认导入"></a>默认导入</h4><p>导入一个模块的默认导出，使用下面的语法<br><code>import 接收变量名 from &quot;模块路径&quot;</code><br>类似于CommonJS中的 <code>var 接收变量名 = require(&quot;模块路径&quot;)</code></p>
