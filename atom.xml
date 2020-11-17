@@ -6,7 +6,7 @@
   <link href="https://liushunxing.github.io/atom.xml" rel="self"/>
   
   <link href="https://liushunxing.github.io/"/>
-  <updated>2020-11-17T05:17:22.818Z</updated>
+  <updated>2020-11-17T05:20:36.849Z</updated>
   <id>https://liushunxing.github.io/</id>
   
   <author>
@@ -21,15 +21,14 @@
     <link href="https://liushunxing.github.io/posts/b47b.html"/>
     <id>https://liushunxing.github.io/posts/b47b.html</id>
     <published>2020-06-17T04:42:59.000Z</published>
-    <updated>2020-11-17T05:17:22.818Z</updated>
+    <updated>2020-11-17T05:20:36.849Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;模块化&quot;&gt;&lt;a href=&quot;#模块化&quot; class=&quot;headerlink&quot; title=&quot;模块化&quot;&gt;&lt;/a&gt;模块化&lt;/h1&gt;&lt;p&gt;随着前端项目越来越复杂，js中全局变量污染和依赖混乱等问题严重。模块化越来越重要。&lt;/p&gt;
-&lt;h2 id=&quot;一、早期&quot;&gt;&lt;a</summary>
+    <summary type="html">&lt;h1 id=&quot;模块化&quot;&gt;&lt;a href=&quot;#模块化&quot; class=&quot;headerlink&quot;</summary>
         
       
     
