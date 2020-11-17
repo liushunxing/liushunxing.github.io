@@ -554,21 +554,24 @@ export &#123; age, sex &#125; //将age变量的名称作为导出的名称，age
 <li>可以使用  <code>*</code> 号导入所有的基本导出(包括默认导出)，使用 <code>as</code> 重命名，形成一个对象。<pre class="line-numbers language-JavaScript"><code class="language-JavaScript">import "./a.js" //这条导入语句，仅会运行模块，不用它内部的任何导出
 import &#123;name, age&#125; from "./b.jsb"
 import * as c from "./c.js"<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-<h3 id="默认导入导出"><a href="#默认导入导出" class="headerlink" title="默认导入导出"></a>默认导入导出</h3><h4 id="默认导出"><a href="#默认导出" class="headerlink" title="默认导出"></a>默认导出</h4>每个模块，除了允许有多个基本导出之外，还允许有一个默认导出（有且仅有一个）。<br>默认导出类似于CommonJS中的<code>module.exports</code>，由于只有一个，因此无需具名。<br>具体的语法：<br><code>export default 默认导出的数据</code><br>或<br><code>export &#123;默认导出的数据 as default&#125;</code><h4 id="默认导入"><a href="#默认导入" class="headerlink" title="默认导入"></a>默认导入</h4>导入一个模块的默认导出，使用下面的语法<br><code>import 接收变量名 from &quot;模块路径&quot;</code><br>类似于CommonJS中的 <code>var 接收变量名 = require(&quot;模块路径&quot;)</code><br>由于默认导入时变量名是自行定义的，因此没有别名一说。<br>如果希望同时导入某个模块的默认导出和基本导出，可以使用下面的语法：<br><code>import 接收默认导出的变量, &#123;接收基本导出的变量&#125; from &quot;模块路径&quot;</code><blockquote>
+</li>
+</ul>
+<hr>
+<h3 id="默认导入导出"><a href="#默认导入导出" class="headerlink" title="默认导入导出"></a>默认导入导出</h3><h4 id="默认导出"><a href="#默认导出" class="headerlink" title="默认导出"></a>默认导出</h4><p>每个模块，除了允许有多个基本导出之外，还允许有一个默认导出（有且仅有一个）。<br>默认导出类似于CommonJS中的<code>module.exports</code>，由于只有一个，因此无需具名。<br>具体的语法：<br><code>export default 默认导出的数据</code><br>或<br><code>export &#123;默认导出的数据 as default&#125;</code></p>
+<h4 id="默认导入"><a href="#默认导入" class="headerlink" title="默认导入"></a>默认导入</h4><p>导入一个模块的默认导出，使用下面的语法<br><code>import 接收变量名 from &quot;模块路径&quot;</code><br>类似于CommonJS中的 <code>var 接收变量名 = require(&quot;模块路径&quot;)</code><br>由于默认导入时变量名是自行定义的，因此没有别名一说。<br>如果希望同时导入某个模块的默认导出和基本导出，可以使用下面的语法：<br><code>import 接收默认导出的变量, &#123;接收基本导出的变量&#125; from &quot;模块路径&quot;</code></p>
+<blockquote>
 <p>如果使用 <code>*</code> 号，会将所有基本导出和默认导出聚合到一个对象中，默认导出会作为属性 <code>default</code> 存在。</p>
 </blockquote>
 <pre class="line-numbers language-JavaScript"><code class="language-JavaScript">//导出
 export var a = 1;
 export default &#123;
-  fn: function () &#123; &#125;,
-  name: "adsfaf"
+    fn: function () &#123; &#125;,
+    name: "adsfaf"
 &#125;
 //导入
 import data from "./a.js" 
 import data, &#123; a &#125; from "./a.js"
 import * as a from "./a.js"<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-</li>
-</ul>
 
             </div>
             <hr/>
