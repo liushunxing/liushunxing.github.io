@@ -480,14 +480,14 @@
 &#125;)(module1);  
 //module1模块添加了一个新方法m3()，然后返回新的module1模块。<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 </li>
-<li>与”放大模式”相比，＂宽放大模式＂就是”立即执行函数”的参数可以是空对象。<pre class="line-numbers language-JavaScript"><code class="language-JavaScript">　　var module1 = ( function (mod)&#123;
-　　　　//...
-　　　　return mod;
-　　&#125;)(window.module1 || &#123;&#125;);<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<li>与”放大模式”相比，＂宽放大模式＂就是”立即执行函数”的参数可以是空对象。<pre class="line-numbers language-JavaScript"><code class="language-JavaScript">var module1 = ( function (mod)&#123;
+　　//...
+　　return mod;
+&#125;)(window.module1 || &#123;&#125;);<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 </li>
-<li>输入全局变量: 为了在模块内部调用全局变量，必须显式地将其他变量输入模块。<pre class="line-numbers language-JavaScript"><code class="language-JavaScript">　var module1 = (function ($, YAHOO) &#123;
-　　　　//...
-　　&#125;)(jQuery, YAHOO);<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<li>输入全局变量: 为了在模块内部调用全局变量，必须显式地将其他变量输入模块。<pre class="line-numbers language-JavaScript"><code class="language-JavaScript">var module1 = (function ($, YAHOO) &#123;
+　　//...
+&#125;)(jQuery, YAHOO);<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 <h2 id="二、CommonJS"><a href="#二、CommonJS" class="headerlink" title="二、CommonJS"></a>二、CommonJS</h2>CommonJS使用<code>exports</code>导出模块，<code>require</code>导入模块。</li>
 </ul>
 <p><strong>同步</strong>加载，适合服务端，不适合浏览器。</p>
@@ -502,10 +502,10 @@
 <li>在模块开始执行前，初始化一个值<code>module.exports = &#123;&#125;</code></li>
 <li><code>module.exports</code>即模块的导出值</li>
 <li>为了方便开发者便捷的导出，nodejs在初始化完<code>module.exports</code>后，又声明了一个变量<code>exports = module.exports</code><pre class="line-numbers language-JavaScript"><code class="language-JavaScript">(function(module)&#123;
-  module.exports = &#123;&#125;;
-  var exports = module.exports;
-  //模块中的代码
-  return module.exports;
+module.exports = &#123;&#125;;
+var exports = module.exports;
+//模块中的代码
+return module.exports;
 &#125;)()<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 </li>
 </ol>
