@@ -467,7 +467,7 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="模块化"><a href="#模块化" class="headerlink" title="模块化"></a>模块化</h1><p>随着前端项目越来越复杂，js中全局变量污染和依赖混乱等问题愈加凸显。模块化开发越来越重要。</p>
+                <h1 id="模块化"><a href="#模块化" class="headerlink" title="模块化"></a>模块化</h1><p>随着前端项目越来越复杂，js中全局变量污染和依赖混乱等问题严重。模块化越来越重要。</p>
 <h2 id="早期"><a href="#早期" class="headerlink" title="早期"></a>早期</h2><ul>
 <li>原始写法：一个函数一个模块。污染全局变量，无法保证不与其他模块发生变量名冲突，而且模块成员之间看不出直接关系。</li>
 <li>对象写法：一个对象一个模块，模块成员作为对象属性。会暴露所有的模块成员。</li>
@@ -488,8 +488,9 @@
 <li>输入全局变量: 为了在模块内部调用全局变量，必须显式地将其他变量输入模块。<pre class="line-numbers language-JavaScript"><code class="language-JavaScript">　var module1 = (function ($, YAHOO) &#123;
 　　　　//...
 　　&#125;)(jQuery, YAHOO);<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-<h2 id="CommonJS"><a href="#CommonJS" class="headerlink" title="CommonJS"></a>CommonJS</h2>CommonJS使用<code>exports</code>导出模块，<code>require</code>导入模块。</li>
+</li>
 </ul>
+<h2 id="CommonJS"><a href="#CommonJS" class="headerlink" title="CommonJS"></a>CommonJS</h2><p>CommonJS使用<code>exports</code>导出模块，<code>require</code>导入模块。</p>
 <p><strong>同步</strong>加载，适合服务端，不适合浏览器。</p>
 <h3 id="nodejs对CommonJS的实现"><a href="#nodejs对CommonJS的实现" class="headerlink" title="nodejs对CommonJS的实现"></a>nodejs对CommonJS的实现</h3><p>为了实现CommonJS规范，nodejs对模块做出了以下处理</p>
 <ol>
@@ -510,9 +511,12 @@
 </li>
 </ol>
 </li>
-<li>为了避免反复加载同一个模块，nodejs默认开启了<strong>模块缓存</strong>，如果加载的模块已经被加载过了，则会自动使用之前的导出结果。<h2 id="AMD"><a href="#AMD" class="headerlink" title="AMD"></a>AMD</h2>全称是 Asynchronous Module Definition，即异步模块加载机制。<br>特点是可以实现<strong>异步加载模块</strong>，允许指定回调函数。等模块异步加载完成后即可调用回调函数。</li>
+<li>为了避免反复加载同一个模块，nodejs默认开启了<strong>模块缓存</strong>，如果加载的模块已经被加载过了，则会自动使用之前的导出结果。</li>
 </ol>
-<p><strong>提前加载依赖的模块，依赖前置</strong>。<br>通过 <code>define</code> 来定义一个模块，然后使用 <code>require</code> 来加载一个模块。<br><code>require.js</code>实现了AMD规范。</p>
+<h2 id="AMD"><a href="#AMD" class="headerlink" title="AMD"></a>AMD</h2><p>全称是 Asynchronous Module Definition，即异步模块加载机制。</p>
+<p>特点是可以实现<strong>异步加载模块</strong>，允许指定回调函数。等模块异步加载完成后即可调用回调函数。</p>
+<p><strong>提前加载依赖的模块，依赖前置</strong>。</p>
+<p>通过 <code>define</code> 来定义一个模块，然后使用 <code>require</code> 来加载一个模块。<br><code>require.js</code>实现了AMD规范。</p>
 <pre class="line-numbers language-JavaScript"><code class="language-JavaScript">// define 既可以定义模块也可以导入模块
 define([依赖的模块列表], function(模块名称列表)&#123;
     //模块内部的代码
@@ -521,7 +525,9 @@ define([依赖的模块列表], function(模块名称列表)&#123;
 require([导入模块列表], function(模块名称列表)&#123;
     //回调函数代码
 &#125;);<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h2 id="CMD"><a href="#CMD" class="headerlink" title="CMD"></a>CMD</h2><p>全称是 Common Module Definition，公共模块定义规范。<br><strong>异步加载，模块使用时才会加载执行，即依赖就近，按需加载依赖</strong>。<br>通过 <code>define</code> 来定义一个模块，然后使用 <code>require</code> 来加载一个模块。<br><code>sea.js</code>实现了CMD规范。</p>
+<h2 id="CMD"><a href="#CMD" class="headerlink" title="CMD"></a>CMD</h2><p>全称是 Common Module Definition，公共模块定义规范。</p>
+<p><strong>异步加载，模块使用时才会加载执行，即依赖就近，按需加载依赖</strong>。</p>
+<p>通过 <code>define</code> 来定义一个模块，然后使用 <code>require</code> 来加载一个模块。<br><code>sea.js</code>实现了CMD规范。</p>
 <pre class="line-numbers language-JavaScript"><code class="language-JavaScript">define(function(require, exports, module)&#123;
     //通过 require 引入依赖。
     //模块内部的代码
@@ -533,8 +539,9 @@ require([导入模块列表], function(模块名称列表)&#123;
 <h3 id="模块的基本导出和导入"><a href="#模块的基本导出和导入" class="headerlink" title="模块的基本导出和导入"></a>模块的基本导出和导入</h3><p>ES6中的模块导入导出分为两种：</p>
 <ol>
 <li>基本导入导出</li>
-<li>默认导入导出<h4 id="基本导出"><a href="#基本导出" class="headerlink" title="基本导出"></a>基本导出</h4>类似于 <code>exports.xxx = xxxx </code></li>
+<li>默认导入导出</li>
 </ol>
+<h4 id="基本导出"><a href="#基本导出" class="headerlink" title="基本导出"></a>基本导出</h4><p>类似于 <code>exports.xxx = xxxx </code></p>
 <p>基本导出可以有多个，每个必须有名称。</p>
 <p>基本导出的语法如下：<br><code>export 声明表达式</code><br>或<br><code>export &#123;具名符号&#125;</code></p>
 <pre class="line-numbers language-JavaScript"><code class="language-JavaScript">import "./b.js" //这条导入语句，仅会运行模块，不适用它内部的任何导出
@@ -1133,7 +1140,7 @@ import * as a from &quot;./a.js&quot;</code></pre>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            随着前端项目越来越复杂，js中全局变量污染和依赖混乱等问题愈加凸显。模块化开发越来越重要。
+                            随着前端项目越来越复杂，js中全局变量污染和依赖混乱等问题严重。模块化越来越重要。
                         
                     </div>
                     <div class="publish-info">
