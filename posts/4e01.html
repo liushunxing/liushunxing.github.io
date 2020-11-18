@@ -406,8 +406,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/http/" class="post-category">
-                                http
+                            <a href="/categories/Web%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/" class="post-category">
+                                Web性能优化
                             </a>
                         
                     </div>
@@ -498,17 +498,39 @@
 <p>浏览器在协商性缓存情况下，都会无条件像服务器发起请求，判断自己的缓存是不是最新，如果是就接着用，不是就请求最新的文件，缓存起来用，以此循环。</p>
 <p>协商缓存一般配合强缓存使用。当浏览器对某个资源的请求没有命中强缓存（是否过期），然后发一个请求到服务器，验证协商缓存是否命中（是否更新），如果协商缓存命中，请求响应返回的<code>http</code>状态为304并且会显示一个<code>Not Modified</code>的字符串。</p>
 <p>协商缓存是利用的是<code>Last-Modified、If-Modified-Since</code>和<code>ETag、If-None-Match</code>这两对<code>Header</code>来管理的。<br><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAMAAABOo35HAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAC9UExURVlZWdPT07KysmRkZIWFhfT09JmZmWZmZm9vb39/fxkZGUxMTDMzM3p6epCQkKamppubm729venp6cjIyN7e3tbW1s/Pz8LCwnx8fLS0tFZWVoiIiI+Pj6GhoeTk5Glpabu7u93d3evr66CgoJSUlKqqqsnJyeDg4Hd3d8PDw+Xl5bi4uNHR0dvb26Ojo6urq+fn51hYWDg4OCgoKHBwcK2traenp0FBQe7u7vHx8U5OTre3t8zMzHV1df///7GrnpQAAAA/dFJOU///////////////////////////////////////////////////////////////////////////////////AI4mfBcAAAUGSURBVHja7NoJb6M4GMZxY0NCD64kve/pMZ2d3Z297+X7f6zFNmBAMUXa6URl/q9UJSWPUPzrizFWRUlNLgEBWGCBBRZYYEEAFlhggQUWWBCABRZYYIEFFgRggQUWWGCBBQFYYIEFFlhgQQAWWGCBBRZYEIAFFlhggQUWBGCBBRZYYIEFAVhggQUWWGBBABZYYIEFFlgQgAUWWGCBBRYEYIEFFlhggQUBWGCBBRZYYEEAFlhggQUWWBCABRZYYIEFFgRggQUWWGCBBQFYYIEFFlhgQQAWWGCBBRZYEIAFFlhggQUWBGCBBRZYn6cCIcRXgvX/h9qcIVBqDdbEM8RCxGCB9QqXYRwHYDHBgwXWl8eKZKiESHI3Ba1kWs3fKixcaJUl1YyeBm7Ocq+yLItUiVBGnXxenSHJolIKEcwHq6ikbOX1YGVzQCTN8LPmSLreghUl9sN4Uw7yajMrLC0TZ1ImzqY6FEop0+pIaEN5HaoOxVuwEqFyc4I46uSlzOLqgxlh6UaR9l3VYWl9Fdoxb1Q90KJtu41pwwFW/WHhTtW8i7TafLCqRsk6bsGw63L9qurXRmuIlbT9lDQnlXU+nBFW1Q2qnZbDprWa2tjR90LZFqx1/+Td/HpGWLlrLDvIwTcx6dQ1Vrntbig68cDms3JwbA5Y1azs1ger6sNV/bbIw1jU81MvNAGrl58RVn8ozW+btF08iGFoAlYvP3csfVur1gJBEIA1uBmue5dhZDOyO2epbmgCVi8/I6x0MMHH9pjsTfBhNzQBq5uPZoQlB0uH3DZG4EZqQ26fL3sZq5uf09Ih6qw3i/pm6BZO0qZX7rrUS68Xsbr5ZE4rePMk08pk9aUZugfqppvs6AM1Acvlo/StP+6EbW06z8hJqxbYp2BZPQUnFsLsKuhQdaHqn5ewbF7KXIn0jWO5MqOQ7RaNLPtbNMmmhimj0GUmYLl8Gs0Lq4wyPbTu1l2QKqHSouzs3OlDIslW5SQsnY/NXmFplyNvEuuLV/Tau9BzwiraDUSwXmysztYWWNtL1psXeumgIrDGaqXvBfUuvtqUYI3V2t1wk1e2msFluJJm6zDJXv/fIfjPP7DAAgsssCiwwAILLLDAosACCyywwAKLAgsssMACC6zt9fDz/v75tyOB+98PD2+ORgKffjw4OP1uJPDxl+Xy8v1I4MPF3t7VNyOB4/vF4uzdzrG+39f1kz/w66Guv/yBvw90KX/gZKkr8Qf+2dOV+gNHC12/7RxrabD2/a31bLAO/a11YbAO/K21MFhLf2s9Gqw9f2vdGqzFu11jnVusE2/gxmI9eQOnFuvYG7i0WH7uK4t15w2cWazrXWP9a7H8f/bQYvm/6IPF+sF/pVssf19Ii/WH/0K2WH/uGuvEWC39gSdj9Twy+Rqri5EZx1gt/IE7Y/XoD1wbq9vd3w1PlufnD2OBp+ebm/uxwPHF6emnscDR4vLy41jg7vHq6sNY4Pr27OyYdRaLUrDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssL6u+k+AAQCR9eHtLKvLfwAAAABJRU5ErkJggg==" data-original="https://raw.githubusercontent.com/liushunxing/cdn/master/blog/img/http/2020-06-22.png" alt="协商缓存"></p>
-<p>强缓存与协商缓存的区别（命中为前提）:<br>||获取资源形式|状态码|是否发送请求到服务器<br>—|—|—|—<br>强缓存|从缓存取|200（from cache）|否，直接从缓存取<br>协商缓存|从缓存取|304（not modified）|是，通过服务器来验证缓存是否可用</p>
+<p>强缓存与协商缓存的区别（命中为前提）:</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>获取资源形式</th>
+<th>状态码</th>
+<th>是否发送请求到服务器</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>强缓存</td>
+<td>从缓存取</td>
+<td>200（from cache）</td>
+<td>否，直接从缓存取</td>
+</tr>
+<tr>
+<td>协商缓存</td>
+<td>从缓存取</td>
+<td>304（not modified）</td>
+<td>是，通过服务器来验证缓存是否可用</td>
+</tr>
+</tbody></table>
 <h2 id="http-缓存方案"><a href="#http-缓存方案" class="headerlink" title="http 缓存方案"></a>http 缓存方案</h2><hr>
 <p>我们已经可以精确的对比服务器文件与本地缓存文件差异，但其实上面方案的演变都存在一个较大缺陷， <code>max-age</code>或<code>Expires</code>不过期，<strong>浏览器无法主动感知服务器文件变化</strong>。</p>
 <p>解决方案：</p>
-<h3 id="md5-hash缓存"><a href="#md5-hash缓存" class="headerlink" title="md5/hash缓存"></a><code>md5/hash</code>缓存</h3><p>通过不缓存html，为静态文件添加<code>MD5</code>或者<code>hash</code>标识，解决浏览器无法跳过缓存过期时间主动感知文件变化的问题。</p>
+<h3 id="md5-hash-缓存"><a href="#md5-hash-缓存" class="headerlink" title="md5/hash 缓存"></a>md5/hash 缓存</h3><p>通过不缓存html，为静态文件添加<code>MD5</code>或者<code>hash</code>标识，解决浏览器无法跳过缓存过期时间主动感知文件变化的问题。</p>
 <p>原理：</p>
 <blockquote>
 <p>前面说的http缓存方案，服务器与浏览器的文件修改时间对比，文件内容标识对比，前提基础都是建立在两者文件路径完全相同的情况下。<br>举个例子：未缓存html，module/js/a-hash1.js与module/js/a-hash2.js是两个完全不同的文件，假想浏览器第一次加载页面，请求并缓存了module/js/a-hash1.js，第二次加载，文件指向变成了module/js/a-hash2.js，浏览器会直接重新请求a-hash2.js，因为这就是两个完全不同的文件，哪里还有什么http缓存文件对比，通过这种做法，我们就可以从根本上解决过期时间没到浏览器无法主动请求服务器的问题。因此我们只需要在项目每次发布迭代将修改过的静态文件添加不同的MD5或hash标识就好啦。</p>
 </blockquote>
 <p>webpack提供了<code>webpack-md5-hash</code>插件，可以帮助开发者在项目发布时自动修改文件标识。</p>
-<h3 id="CDN缓存"><a href="#CDN缓存" class="headerlink" title="CDN缓存"></a><code>CDN</code>缓存</h3><p><code>cache-control</code>相关值介绍中，提到了例如<code>s-maxage</code>代理服务器。</p>
+<h3 id="CDN-缓存"><a href="#CDN-缓存" class="headerlink" title="CDN 缓存"></a>CDN 缓存</h3><p><code>cache-control</code>相关值介绍中，提到了例如<code>s-maxage</code>代理服务器。</p>
 <h4 id="什么是-CDN"><a href="#什么是-CDN" class="headerlink" title="什么是 CDN ?"></a>什么是 CDN ?</h4><p>CDN 即内容分发网络。CDN是构建在现有网络基础之上的智能虚拟网络，依靠部署在各地的边缘服务器，通过中心平台的负载均衡、内容分发、调度等功能模块，使用户就近获取所需内容，降低网络拥塞，提高用户访问响应速度和命中率。CDN的关键技术主要有内容存储和分发技术。</p>
 <p>举个形象的例子：</p>
 <blockquote>
@@ -1097,8 +1119,8 @@
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/http/" class="post-category">
-                                    http
+                            <a href="/categories/Web%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/" class="post-category">
+                                    Web性能优化
                                 </a>
                             
                             
