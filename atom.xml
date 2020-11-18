@@ -6,7 +6,7 @@
   <link href="https://liushunxing.github.io/atom.xml" rel="self"/>
   
   <link href="https://liushunxing.github.io/"/>
-  <updated>2020-11-17T05:36:31.861Z</updated>
+  <updated>2020-11-18T02:41:05.950Z</updated>
   <id>https://liushunxing.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>http协议</title>
+    <link href="https://liushunxing.github.io/posts/50cf.html"/>
+    <id>https://liushunxing.github.io/posts/50cf.html</id>
+    <published>2020-06-18T02:37:30.000Z</published>
+    <updated>2020-11-18T02:41:05.950Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;http协议&quot;&gt;&lt;a href=&quot;#http协议&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="http" scheme="https://liushunxing.github.io/categories/http/"/>
+    
+    
+    <category term="http协议" scheme="https://liushunxing.github.io/tags/http%E5%8D%8F%E8%AE%AE/"/>
+    
+  </entry>
   
   <entry>
     <title>模块化</title>
@@ -103,7 +128,7 @@
     <link href="https://liushunxing.github.io/posts/8ccc.html"/>
     <id>https://liushunxing.github.io/posts/8ccc.html</id>
     <published>2020-05-02T10:46:31.000Z</published>
-    <updated>2020-11-12T11:01:57.538Z</updated>
+    <updated>2020-11-18T02:38:48.389Z</updated>
     
     
       
@@ -121,6 +146,8 @@
     
     <category term="布局方案" scheme="https://liushunxing.github.io/tags/%E5%B8%83%E5%B1%80%E6%96%B9%E6%A1%88/"/>
     
+    <category term="粘连布局" scheme="https://liushunxing.github.io/tags/%E7%B2%98%E8%BF%9E%E5%B8%83%E5%B1%80/"/>
+    
   </entry>
   
   <entry>
@@ -128,7 +155,7 @@
     <link href="https://liushunxing.github.io/posts/2db5.html"/>
     <id>https://liushunxing.github.io/posts/2db5.html</id>
     <published>2020-05-02T10:46:08.000Z</published>
-    <updated>2020-11-12T11:05:03.736Z</updated>
+    <updated>2020-11-18T02:38:40.420Z</updated>
     
     
       
@@ -147,6 +174,8 @@
     
     <category term="布局方案" scheme="https://liushunxing.github.io/tags/%E5%B8%83%E5%B1%80%E6%96%B9%E6%A1%88/"/>
     
+    <category term="三栏布局" scheme="https://liushunxing.github.io/tags/%E4%B8%89%E6%A0%8F%E5%B8%83%E5%B1%80/"/>
+    
   </entry>
   
   <entry>
@@ -154,7 +183,7 @@
     <link href="https://liushunxing.github.io/posts/bd25.html"/>
     <id>https://liushunxing.github.io/posts/bd25.html</id>
     <published>2020-05-02T10:45:33.000Z</published>
-    <updated>2020-11-14T00:24:34.764Z</updated>
+    <updated>2020-11-18T02:38:33.278Z</updated>
     
     
       
@@ -172,6 +201,8 @@
     
     
     <category term="布局方案" scheme="https://liushunxing.github.io/tags/%E5%B8%83%E5%B1%80%E6%96%B9%E6%A1%88/"/>
+    
+    <category term="两栏布局" scheme="https://liushunxing.github.io/tags/%E4%B8%A4%E6%A0%8F%E5%B8%83%E5%B1%80/"/>
     
   </entry>
   
