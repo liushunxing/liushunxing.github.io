@@ -6,7 +6,7 @@
   <link href="https://liushunxing.github.io/atom.xml" rel="self"/>
   
   <link href="https://liushunxing.github.io/"/>
-  <updated>2020-11-18T03:03:58.798Z</updated>
+  <updated>2020-11-18T12:47:00.617Z</updated>
   <id>https://liushunxing.github.io/</id>
   
   <author>
@@ -15,6 +15,61 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>缓存（二）</title>
+    <link href="https://liushunxing.github.io/posts/4e01.html"/>
+    <id>https://liushunxing.github.io/posts/4e01.html</id>
+    <published>2020-06-21T12:41:28.000Z</published>
+    <updated>2020-11-18T12:47:00.617Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;http-缓存&quot;&gt;&lt;a href=&quot;#http-缓存&quot; class=&quot;headerlink&quot; title=&quot;http 缓存&quot;&gt;&lt;/a&gt;http 缓存&lt;/h1&gt;&lt;hr&gt;
+&lt;p&gt;HTTP 缓存通常也叫浏览器缓存，是网站性能优化的重要方式。&lt;br&gt;HTTP</summary>
+        
+      
+    
+    
+    
+    <category term="http" scheme="https://liushunxing.github.io/categories/http/"/>
+    
+    
+    <category term="http 缓存" scheme="https://liushunxing.github.io/tags/http-%E7%BC%93%E5%AD%98/"/>
+    
+    <category term="CDN 缓存" scheme="https://liushunxing.github.io/tags/CDN-%E7%BC%93%E5%AD%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>缓存（一）</title>
+    <link href="https://liushunxing.github.io/posts/de7b.html"/>
+    <id>https://liushunxing.github.io/posts/de7b.html</id>
+    <published>2020-06-20T12:40:54.000Z</published>
+    <updated>2020-11-18T12:46:50.541Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;缓存&quot;&gt;&lt;a href=&quot;#缓存&quot; class=&quot;headerlink&quot; title=&quot;缓存&quot;&gt;&lt;/a&gt;缓存&lt;/h1&gt;&lt;hr&gt;
+&lt;p&gt;缓存是一种保存资源副本并在下次请求时直接使用该副本的技术。&lt;/p&gt;
+&lt;h2 id=&quot;缓存的作用&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Web性能优化" scheme="https://liushunxing.github.io/categories/Web%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/"/>
+    
+    
+    <category term="缓存" scheme="https://liushunxing.github.io/tags/%E7%BC%93%E5%AD%98/"/>
+    
+  </entry>
   
   <entry>
     <title>http协议</title>
@@ -78,7 +133,7 @@
     <link href="https://liushunxing.github.io/posts/196e.html"/>
     <id>https://liushunxing.github.io/posts/196e.html</id>
     <published>2020-06-14T00:27:51.000Z</published>
-    <updated>2020-11-14T00:50:43.625Z</updated>
+    <updated>2020-11-18T12:39:24.169Z</updated>
     
     
       
@@ -103,7 +158,7 @@
     <link href="https://liushunxing.github.io/posts/57aa.html"/>
     <id>https://liushunxing.github.io/posts/57aa.html</id>
     <published>2020-06-14T00:27:39.000Z</published>
-    <updated>2020-11-14T00:48:19.645Z</updated>
+    <updated>2020-11-18T12:39:06.884Z</updated>
     
     
       
@@ -128,7 +183,7 @@
     <link href="https://liushunxing.github.io/posts/8ccc.html"/>
     <id>https://liushunxing.github.io/posts/8ccc.html</id>
     <published>2020-05-02T10:46:31.000Z</published>
-    <updated>2020-11-18T02:38:48.389Z</updated>
+    <updated>2020-11-18T12:39:53.037Z</updated>
     
     
       
@@ -146,8 +201,6 @@
     
     <category term="布局方案" scheme="https://liushunxing.github.io/tags/%E5%B8%83%E5%B1%80%E6%96%B9%E6%A1%88/"/>
     
-    <category term="粘连布局" scheme="https://liushunxing.github.io/tags/%E7%B2%98%E8%BF%9E%E5%B8%83%E5%B1%80/"/>
-    
   </entry>
   
   <entry>
@@ -155,7 +208,7 @@
     <link href="https://liushunxing.github.io/posts/2db5.html"/>
     <id>https://liushunxing.github.io/posts/2db5.html</id>
     <published>2020-05-02T10:46:08.000Z</published>
-    <updated>2020-11-18T02:38:40.420Z</updated>
+    <updated>2020-11-18T12:39:57.904Z</updated>
     
     
       
@@ -174,8 +227,6 @@
     
     <category term="布局方案" scheme="https://liushunxing.github.io/tags/%E5%B8%83%E5%B1%80%E6%96%B9%E6%A1%88/"/>
     
-    <category term="三栏布局" scheme="https://liushunxing.github.io/tags/%E4%B8%89%E6%A0%8F%E5%B8%83%E5%B1%80/"/>
-    
   </entry>
   
   <entry>
@@ -183,7 +234,7 @@
     <link href="https://liushunxing.github.io/posts/bd25.html"/>
     <id>https://liushunxing.github.io/posts/bd25.html</id>
     <published>2020-05-02T10:45:33.000Z</published>
-    <updated>2020-11-18T02:38:33.278Z</updated>
+    <updated>2020-11-18T12:38:19.828Z</updated>
     
     
       
@@ -201,8 +252,6 @@
     
     
     <category term="布局方案" scheme="https://liushunxing.github.io/tags/%E5%B8%83%E5%B1%80%E6%96%B9%E6%A1%88/"/>
-    
-    <category term="两栏布局" scheme="https://liushunxing.github.io/tags/%E4%B8%A4%E6%A0%8F%E5%B8%83%E5%B1%80/"/>
     
   </entry>
   
