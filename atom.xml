@@ -6,7 +6,7 @@
   <link href="https://liushunxing.github.io/atom.xml" rel="self"/>
   
   <link href="https://liushunxing.github.io/"/>
-  <updated>2020-11-18T12:53:24.591Z</updated>
+  <updated>2020-11-19T09:53:37.534Z</updated>
   <id>https://liushunxing.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>let 和 const 命令</title>
+    <link href="https://liushunxing.github.io/posts/1e61.html"/>
+    <id>https://liushunxing.github.io/posts/1e61.html</id>
+    <published>2020-07-01T07:32:07.000Z</published>
+    <updated>2020-11-19T09:53:37.534Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;let-和-const-命令&quot;&gt;&lt;a href=&quot;#let-和-const-命令&quot; class=&quot;headerlink&quot; title=&quot;let 和 const 命令&quot;&gt;&lt;/a&gt;let 和 const 命令&lt;/h1&gt;&lt;hr&gt;
+&lt;h2 id=&quot;块级作用域&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="ES6" scheme="https://liushunxing.github.io/categories/ES6/"/>
+    
+    
+    <category term="块级作用域" scheme="https://liushunxing.github.io/tags/%E5%9D%97%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F/"/>
+    
+    <category term="let、const" scheme="https://liushunxing.github.io/tags/let%E3%80%81const/"/>
+    
+  </entry>
   
   <entry>
     <title>缓存（二）</title>
